@@ -1,0 +1,89 @@
+#auth {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/onboarding-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#auth-form {
+  padding-top: 200px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#auth-form-selector {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.auth-form-selection {
+  display: inline-block;
+  color: white;
+  font-weight: medium;
+  font-size: 20px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.selected {
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+.auth-form-field {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.auth-form-field-blue {
+  width: 100%;
+  height: 100%;
+  background-color: #1e3656;
+  opacity: 0.2;
+  border-radius: 30px;
+  position: absolute; top: 0; left: 0;
+  z-index: -1;
+}
+
+.auth-form-icon {
+  height: 26px;
+  margin-left: 20px;
+  margin-top: 17px;
+}
+
+.auth-form-input {
+  height: 20px;
+  background: transparent;
+  position: absolute;
+  top: 18px; left: 60px;
+  font-size: 16px;
+  border: 0px;
+  color: white;
+}
+
+.auth-form-input:focus {
+  outline-width: 0px;
+}
+
+.auth-form-input::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+#auth-form-button {
+  width: 100%;
+  height: 60px;
+  background-color: #e43c4b;
+  border-radius: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+}

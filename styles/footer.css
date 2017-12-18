@@ -1,0 +1,16 @@
+#footer {
+  background-color: #1e3656;
+  width: 100%;
+  height: 180px;
+  display: table;
+}
+
+#footer-text {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  font-size: 14px;
+  font-weight: medium;
+  letter-spacing: 0.3px;
+}
